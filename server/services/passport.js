@@ -13,6 +13,7 @@ passport.use(
       console.log("accessToken is ", accessToken);
       console.log("refreshToken is ", refreshToken);
       console.log("profile is ", profile);
+      new User ({googleId: profile.id});
     }
   )
 );
