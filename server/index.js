@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const keys = require('./config/keys.js')
+require ("./models/user.js");
 require("./services/passport");
 
 
