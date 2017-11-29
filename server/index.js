@@ -1,8 +1,13 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const keys = require('./config/keys.js')
+<<<<<<< Updated upstream
 require ("./models/user.js");
+=======
+require('./models/user');
+>>>>>>> Stashed changes
 require("./services/passport");
+
 
 
 mongoose.connect(keys.mongoURI);
